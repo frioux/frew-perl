@@ -4,5 +4,3 @@ MAINTAINER Arthur Axel fREW Schmidt <frioux@gmail.com>
 ADD ./cpanfile /cpanfile
 WORKDIR /
 RUN cpanm -n --installdeps .
-
-ENTRYPOINT ["perl"]
