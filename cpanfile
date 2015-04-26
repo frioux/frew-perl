@@ -61,6 +61,7 @@ requires 'syntax';
 requires 'Syntax::Feature::Method';
 requires 'Syntax::Keyword::Junction';
 requires 'Test::More';
+requires 'Test::Roo';
 requires 'Test::WWW::Mechanize::PSGI';
 requires 'Text::CSV';
 requires 'Text::CSV_XS';
