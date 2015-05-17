@@ -644,7 +644,6 @@ requires 'Net::HTTP';
 requires 'Net::HTTP::Spore';
 requires 'Net::HTTP::Spore::Middleware::Header';
 requires 'Net::LDAP';
-requires 'Net::LibIDN';
 requires 'Net::OAuth';
 requires 'Net::Server';
 requires 'Net::SMTP::TLS';
