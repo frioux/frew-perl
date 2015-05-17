@@ -6,7 +6,6 @@ requires 'aliased';
 requires 'Alien::Tidyp';
 requires 'AnyEvent';
 requires 'AnyEvent::HTTP';
-requires 'AnyEvent::XMPP';
 requires 'Any::Moose';
 requires 'Any::URI::Escape';
 requires 'Apache::BalancerManager';
