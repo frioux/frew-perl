@@ -246,7 +246,7 @@ requires 'DateTimeX::Easy';
 requires 'DBD::Mock';
 requires 'DBD::mysql';
 requires 'DBD::ODBC';
-requires 'DBD::Oracle';
+# requires 'DBD::Oracle';
 requires 'DBD::Pg';
 requires 'DBD::SQLite';
 requires 'DBI';
