@@ -37,7 +37,9 @@ RUN cpanm -nq DBI                                                  && \
     env DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y locales unzip libgmp-dev xvfb && \
     echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
-    locale-gen
-RUN cpanm -nq --installdeps . || dash -c 'cat ~/.cpanm/build.log ; exit 1' && \
+    locale-gen && \
+    cpanm -nq --installdeps . || (cat ~/.cpanm/build.log; exit 1) && \
     apt-get autoremove -y && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* ~/.cpanm
+
+ENV LC_ALL en_US.utf8
