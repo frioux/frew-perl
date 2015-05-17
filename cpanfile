@@ -739,7 +739,7 @@ requires 'Return::MultiLevel';
 requires 'Return::Type';
 requires 'rlib';
 requires 'Role::HasMessage';
-requires 'Role::Identifiable';
+requires 'Role::Identifiable::HasTags';
 requires 'Role::Tiny';
 requires 'Safe::Isa';
 requires 'Scalar::String';
