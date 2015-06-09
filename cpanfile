@@ -802,6 +802,7 @@ requires 'Template::Toolkit::Simple';
 requires 'Term::ANSIColor';
 requires 'Term::Encoding';
 requires 'Term::ReadKey';
+requires 'Term::ReadLine::Perl';
 requires 'Term::UI';
 requires 'Test::API';
 requires 'Test::Base';
