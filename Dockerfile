@@ -1,4 +1,4 @@
-FROM perl:5.20.2
+FROM perl:5.22.0
 MAINTAINER Arthur Axel fREW Schmidt <frioux@gmail.com>
 
 ADD ./cpanfile /root/cpanfile
