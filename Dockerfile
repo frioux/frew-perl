@@ -1,5 +1,5 @@
 FROM perl:5.22.0
-MAINTAINER Arthur Axel fREW Schmidt <frioux@gmail.com>
+MAINTAINER Arthur Axel fREW Schmidt <frew-perl@afoolishmanifesto.com>
 
 ADD ./cpanfile /root/cpanfile
 RUN cpanm -nq DBI                                                  && \
